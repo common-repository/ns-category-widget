@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'ec7085bb71198158c9bd76caa1695a26e0934a5a',
+        'name' => 'ernilambar/ns-category-widget',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ernilambar/ns-category-widget' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'ec7085bb71198158c9bd76caa1695a26e0934a5a',
+            'dev_requirement' => false,
+        ),
+        'ernilambar/optioner' => array(
+            'pretty_version' => '3.0.0',
+            'version' => '3.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ernilambar/optioner',
+            'aliases' => array(),
+            'reference' => '858361d4a6fcd77764b8abfa7b17d43b39bd9a24',
+            'dev_requirement' => false,
+        ),
+        'ernilambar/wp-admin-notice' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../ernilambar/wp-admin-notice',
+            'aliases' => array(),
+            'reference' => 'ef71e83f6e82d3224783756426ddb209991e30cb',
+            'dev_requirement' => false,
+        ),
+    ),
+);
